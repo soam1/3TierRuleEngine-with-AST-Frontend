@@ -6,7 +6,7 @@ import EvaluateRule from './components/EvaluateRule';
 function App() {
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6">Rule Engine</h1>
+      <h1 className="text-3xl font-bold text-center mb-6">3 Tier Rule Engine using AST</h1>
       <CreateRule />
       <CombineRules />
       <EvaluateRule />
